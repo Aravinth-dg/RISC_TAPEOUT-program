@@ -1,7 +1,14 @@
-# RISC_TAPEOUT-program
-tool installations and the procedure are given below:
+## RISC_TAPEOUT-program
+</div>
+tool installations and the procedure are given below:\
+
+## System Requirements
+6 GB RAM\
+50 GB HDD\
+Ubuntu 20.04 or higher\
+4 vCPU\
 \
-1.Yosys:\
+## 1.Yosys:
    $ sudo apt-get update\
 $ git clone https://github.com/YosysHQ/yosys.git\
 $ cd yosys\
@@ -14,12 +21,12 @@ $ make config-gcc\
 $ make\
 $ sudo make install \
 \
-2.Iverilog:\
+## 2.Iverilog:
   Steps to install iverilog\
 sudo apt-get update\
 sudo apt-get install iverilog\
 \
-3.Gktwave:\
+## 3.Gktwave:
   Steps to install gtkwave\
 sudo apt-get update\
 sudo apt install gtkwave \
